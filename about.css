@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.about-container {
+  max-width: 700px;
+  background: white;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid rgb(67, 138, 170);
+  object-fit: cover;
+}
+h2 {
+  color: #333;
+  margin-top: 10px;
+}
+h3 {
+  color: #007bff;
+  margin-top: 20px;
+}
+p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+.contact-info {
+  margin-top: 15px;
+  font-size: 16px;
+}
+.contact-info i {
+  color: #007bff;
+  margin-right: 5px;
+}
+.social-links {
+  margin-top: 20px;
+}
+.social-links a {
+  margin: 10px;
+  font-size: 24px;
+  color: #007bff;
+  text-decoration: none;
+}
+.social-links a:hover {
+  color: #007bff;
+}
+.skills,
+.projects,
+.hobbies {
+  text-align: left;
+  margin: 20px 40px;
+}
+.skills ul,
+.projects ul,
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+}
+.skills li,
+.projects li,
+.hobbies li {
+  background: #c7eefa;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+.resume-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.resume-btn:hover {
+  background: #007bff;
+}
