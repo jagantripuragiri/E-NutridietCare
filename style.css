@@ -12,6 +12,9 @@ body {
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+.iconnav{
+    padding: 12px;
+}
 
 /* Left Section - Logo */
 .left-section .logo-img {
@@ -101,7 +104,21 @@ body {
 	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
     transition: color 0.3s ease-in-out;
 }
+.body-sec-eled{
+    border-radius: 20px;
+    margin-bottom: 40px;
+	background: #fff;
+	display: flex;
+    width: 280px;
+    flex-direction: row;
+	padding: 10px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    transition: color 0.3s ease-in-out;
+}
 .body-sec-ele:hover {
+    color: #007bff; 
+}
+.body-sec-eled:hover {
     color: #007bff; 
 }
 .side_title{
@@ -119,4 +136,52 @@ body {
     height: 80vh;
     padding: 12px;
     
+}
+
+.main_sec{
+    display: flex;
+    flex-direction: row;
+}
+
+.part_2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 70px;
+}
+
+.part_2_h1{
+    color: #007bff;
+    text-shadow:  #000000;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+ 
+
+  
+.doc_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+    
+}
+
+
+
+.doc_main_sec {
+    
+    
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.body-secd{
+    padding: 15px;
 }
