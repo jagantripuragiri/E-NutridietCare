@@ -1,19 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Comaptible" content="IE=edge" />
-    <title>E-NutridietCare</title>
-    <meta name="desciption" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="https://kit.fontawesome.com/0d390d4325.js" crossorigin="anonymous"></script>
-    
-  </head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diet Plan Generator</title>
+    <link rel="stylesheet" type="text/css" href="dietstyle.css" />
 
+    <script src="https://kit.fontawesome.com/0d390d4325.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
   <body>
-    
-   
+
     <nav class="navbar">
         <div class="left-section">
             <a href="/" class="logo">
@@ -28,7 +25,6 @@
             <ul class="nav-links">
                 
                 <li><a href="index.html" > <i class="fa-solid fa-house iconnav" style="color: #007bff;"></i> Home</a></li>
-                <li><a href="#"> <i class="fa-solid fa-right-to-bracket iconnav" style="color: #007bff;"></i> Login</a></li>
                 
                 <li><a href="/shop/all"> <i class="fa-solid fa-envelope iconnav" style="color: #007bff;"></i> FeedBack</a></li>
                 <li><a href="about.html"> <i class="fa-solid fa-circle-info iconnav" style="color: #007bff;"></i> About</a></li>
@@ -38,52 +34,28 @@
         
     </nav>
 
-    <div class="main_sec">
+    <div class="container">
+      <h1>E-Nutridiet <span style="color: black">Diet Planner </span></h1>
+      <div class=""container_box>
+        <label> Enter Your Height (cm):</label>
+        <input type="number" id="height" /><br /><br />
+        <label> Enter Your Weight (kg):</label>
+        <input type="number" id="weight" /><br /><br />
+        <label> Enter Your Age:</label>
+        <input type="number" id="age" /><br /><br />
+      </div>
+      <button onclick="generateDietPlan()">Get Diet Plan</button>
+      <p id="result"></p>
 
-        <div class="part_1">
-        <div class="body-sec">
-
-            <div class="body-sec-ele" id="doctorsec">
-                 
-                <div class="iconedit">
-                    <i class="fa-solid fa-user-doctor fa-2xl "></i>
-                </div>
-                
-                <h3 class="side_title"> Doctor Counsultancy </h3>
-            </div>
-            <div class="body-sec-ele" id="dietsec">
-                 
-                <div class="iconedit">
-                    <i class="fa-solid fa-bowl-food fa-2xl"></i>
-                </div>
-                
-                <h3 class="side_title"> Diet to Follow </h3>
-            </div>
-            <div class="body-sec-ele">
-                 
-                <div class="iconedit">
-                    <i class="fa-solid fa-stethoscope fa-2xl"></i>
-                </div>
-                
-                <h3 class="side_title"> Medicine Booking </h3>
-            </div>
-    
-        </div>
-        </div> 
-
-        <div class="part_2">
-            <div >
-                <h1 class="part_2_h1">E-Nutridiet 
-                    <span style="font-family: arial; font-size: 25px; color: black;">
-                        Your Path To Live Healthy 
-                    </span> 
-                </h1>
-                
-            </div>
-            
-        </div>
-        
+      <div class="diet-plan" id="dietPlan">
+        <h3>Day 1 Meal Plan</h3>
+        <p class="meal"><b>Breakfast:</b> <span id="breakfast"></span></p>
+        <p class="meal"><b>Lunch:</b> <span id="lunch"></span></p>
+        <p class="meal"><b>Snack:</b> <span id="snack"></span></p>
+        <p class="meal"><b>Dinner:</b> <span id="dinner"></span></p>
+      </div>
     </div>
-    <script src="script.js"></script>
-</body>
+
+    <script src="dietscript.js"></script>
+  </body>
 </html>
