@@ -5,7 +5,7 @@
 
 
 You Can Access Our Page Using Below Link :
-	https://jagantripuragiri.github.io/enutridietcare/
+	https://jagantripuragiri.github.io/E-NutridietCare/
 <hr>	
 
 About the Project
