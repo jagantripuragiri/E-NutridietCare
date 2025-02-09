@@ -1,0 +1,122 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Section - Logo */
+.left-section .logo-img {
+    width: 141px;
+    height: 52px;
+}
+
+/* Middle Section - Navigation */
+.middle-section .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.middle-section .nav-links li {
+    position: relative;
+}
+
+.middle-section .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.middle-section .nav-links a:hover {
+    color: #007bff;
+}
+
+/* Dropdown Styling */
+.dropdown-label {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+    background: #f0f0f0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Right Section - Icons */
+.right-section .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.right-section .icons img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+
+
+.body-sec-ele{
+    border-radius: 20px;
+    margin-bottom: 40px;
+	background: #fff;
+	display: flex;
+    width: 280px;
+    flex-direction: row;
+	padding: 10px;
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    transition: color 0.3s ease-in-out;
+}
+.body-sec-ele:hover {
+    color: #007bff; 
+}
+.side_title{
+    margin-left: 25px;
+}
+.iconedit{
+    margin-top: 16px;
+    margin-left: 15px;
+}
+.part_1 {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    padding: 12px;
+    
+}
